@@ -1,0 +1,1098 @@
+Train-Test Split Ratio: 0.9-0.1
+Using LR: 
+Training Accuracy: 0.7655965920080461
+Testing Accuracy: 0.7680490882980112
+Confusion Matrix:
+[[17412  5800]
+ [ 4860 17886]]
+Recall: 0.7863360590873121
+Precision: 0.7551296124292831
+F1-score: 0.7704169538249483
+Fbeta-score: 0.7704169538249483
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.75      0.77     23212
+         1.0       0.76      0.79      0.77     22746
+
+    accuracy                           0.77     45958
+   macro avg       0.77      0.77      0.77     45958
+weighted avg       0.77      0.77      0.77     45958
+
+---------------------------------
+Using KNN: 
+Training Accuracy: 0.7659882596417934
+Testing Accuracy: 0.76474172070151
+Confusion Matrix:
+[[16304  6908]
+ [ 3904 18842]]
+Recall: 0.8283654268882441
+Precision: 0.7317281553398058
+F1-score: 0.7770537776311448
+Fbeta-score: 0.7770537776311448
+              precision    recall  f1-score   support
+
+         0.0       0.81      0.70      0.75     23212
+         1.0       0.73      0.83      0.78     22746
+
+    accuracy                           0.76     45958
+   macro avg       0.77      0.77      0.76     45958
+weighted avg       0.77      0.76      0.76     45958
+
+---------------------------------
+Using DT: 
+Training Accuracy: 0.7639743143398708
+Testing Accuracy: 0.765764393576744
+Confusion Matrix:
+[[16964  6248]
+ [ 4517 18229]]
+Recall: 0.8014156335179812
+Precision: 0.7447399599624137
+F1-score: 0.7720390487686085
+Fbeta-score: 0.7720390487686085
+              precision    recall  f1-score   support
+
+         0.0       0.79      0.73      0.76     23212
+         1.0       0.74      0.80      0.77     22746
+
+    accuracy                           0.77     45958
+   macro avg       0.77      0.77      0.77     45958
+weighted avg       0.77      0.77      0.77     45958
+
+---------------------------------
+Using RT: 
+Training Accuracy: 0.9758254032726007
+Testing Accuracy: 0.9520214108533879
+Confusion Matrix:
+[[21299  1913]
+ [  292 22454]]
+Recall: 0.9871625780356986
+Precision: 0.9214921820494931
+F1-score: 0.9531976312270498
+Fbeta-score: 0.9531976312270498
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.92      0.95     23212
+         1.0       0.92      0.99      0.95     22746
+
+    accuracy                           0.95     45958
+   macro avg       0.95      0.95      0.95     45958
+weighted avg       0.95      0.95      0.95     45958
+
+---------------------------------
+Using NB: 
+Training Accuracy: 0.7227210746199373
+Testing Accuracy: 0.7255972844771313
+Confusion Matrix:
+[[18440  4772]
+ [ 7839 14907]]
+Recall: 0.6553679767871274
+Precision: 0.7575080034554601
+F1-score: 0.7027460223924573
+Fbeta-score: 0.7027460223924573
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.79      0.75     23212
+         1.0       0.76      0.66      0.70     22746
+
+    accuracy                           0.73     45958
+   macro avg       0.73      0.72      0.72     45958
+weighted avg       0.73      0.73      0.72     45958
+
+---------------------------------
+Using XGB: 
+Training Accuracy: 0.7250444857065491
+Testing Accuracy: 0.7203533661168894
+Confusion Matrix:
+[[10496 12716]
+ [  136 22610]]
+Recall: 0.9940209267563528
+Precision: 0.6400384985563041
+F1-score: 0.7786885245901639
+Fbeta-score: 0.7786885245901639
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.45      0.62     23212
+         1.0       0.64      0.99      0.78     22746
+
+    accuracy                           0.72     45958
+   macro avg       0.81      0.72      0.70     45958
+weighted avg       0.82      0.72      0.70     45958
+
+---------------------------------
+========================================
+Train-Test Split Ratio: 0.8-0.2
+Using LR: 
+Training Accuracy: 0.7683179250337949
+Testing Accuracy: 0.7666648533971604
+Confusion Matrix:
+[[34525 11557]
+ [ 9890 35943]]
+Recall: 0.7842166124844544
+Precision: 0.7566947368421053
+F1-score: 0.7702098936067628
+Fbeta-score: 0.7702098936067628
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.75      0.76     46082
+         1.0       0.76      0.78      0.77     45833
+
+    accuracy                           0.77     91915
+   macro avg       0.77      0.77      0.77     91915
+weighted avg       0.77      0.77      0.77     91915
+
+---------------------------------
+Using KNN: 
+Training Accuracy: 0.7658700045422525
+Testing Accuracy: 0.760833378665071
+Confusion Matrix:
+[[32081 14001]
+ [ 7982 37851]]
+Recall: 0.825846006152772
+Precision: 0.7299814857671835
+F1-score: 0.7749603316783539
+Fbeta-score: 0.7749603316783539
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.70      0.74     46082
+         1.0       0.73      0.83      0.77     45833
+
+    accuracy                           0.76     91915
+   macro avg       0.77      0.76      0.76     91915
+weighted avg       0.77      0.76      0.76     91915
+
+---------------------------------
+Using DT: 
+Training Accuracy: 0.7644338911872143
+Testing Accuracy: 0.7634988848392537
+Confusion Matrix:
+[[33351 12731]
+ [ 9007 36826]]
+Recall: 0.8034822071433246
+Precision: 0.7431039005589524
+F1-score: 0.7721144774085333
+Fbeta-score: 0.7721144774085333
+              precision    recall  f1-score   support
+
+         0.0       0.79      0.72      0.75     46082
+         1.0       0.74      0.80      0.77     45833
+
+    accuracy                           0.76     91915
+   macro avg       0.77      0.76      0.76     91915
+weighted avg       0.77      0.76      0.76     91915
+
+---------------------------------
+Using RT: 
+Training Accuracy: 0.9760647774160295
+Testing Accuracy: 0.9462111733666975
+Confusion Matrix:
+[[41767  4315]
+ [  629 45204]]
+Recall: 0.9862762638273733
+Precision: 0.9128617298410711
+F1-score: 0.9481500125849484
+Fbeta-score: 0.9481500125849484
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.91      0.94     46082
+         1.0       0.91      0.99      0.95     45833
+
+    accuracy                           0.95     91915
+   macro avg       0.95      0.95      0.95     91915
+weighted avg       0.95      0.95      0.95     91915
+
+---------------------------------
+Using NB: 
+Training Accuracy: 0.7228736410641382
+Testing Accuracy: 0.7235815699287385
+Confusion Matrix:
+[[36445  9637]
+ [15770 30063]]
+Recall: 0.6559247703619663
+Precision: 0.7572544080604534
+F1-score: 0.7029567535337238
+Fbeta-score: 0.7029567535337238
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.79      0.74     46082
+         1.0       0.76      0.66      0.70     45833
+
+    accuracy                           0.72     91915
+   macro avg       0.73      0.72      0.72     91915
+weighted avg       0.73      0.72      0.72     91915
+
+---------------------------------
+Using XGB: 
+Training Accuracy: 0.7255609137815203
+Testing Accuracy: 0.7199477778382201
+Confusion Matrix:
+[[20632 25450]
+ [  291 45542]]
+Recall: 0.9936508629153666
+Precision: 0.6415089024115394
+F1-score: 0.7796618874384763
+Fbeta-score: 0.7796618874384763
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.45      0.62     46082
+         1.0       0.64      0.99      0.78     45833
+
+    accuracy                           0.72     91915
+   macro avg       0.81      0.72      0.70     91915
+weighted avg       0.81      0.72      0.70     91915
+
+---------------------------------
+========================================
+Train-Test Split Ratio: 0.7-0.3
+Using LR: 
+Training Accuracy: 0.7667710078613371
+Testing Accuracy: 0.7663284326880535
+Confusion Matrix:
+[[51949 17213]
+ [15004 53707]]
+Recall: 0.7816361281308669
+Precision: 0.7572899041173153
+F1-score: 0.7692704342158976
+Fbeta-score: 0.7692704342158976
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.75      0.76     69162
+         1.0       0.76      0.78      0.77     68711
+
+    accuracy                           0.77    137873
+   macro avg       0.77      0.77      0.77    137873
+weighted avg       0.77      0.77      0.77    137873
+
+---------------------------------
+Using KNN: 
+Training Accuracy: 0.7642375995101041
+Testing Accuracy: 0.7607218237073249
+Confusion Matrix:
+[[48132 21030]
+ [11960 56751]]
+Recall: 0.8259376227969321
+Precision: 0.7296254869441123
+F1-score: 0.7747999890779018
+Fbeta-score: 0.7747999890779018
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.70      0.74     69162
+         1.0       0.73      0.83      0.77     68711
+
+    accuracy                           0.76    137873
+   macro avg       0.77      0.76      0.76    137873
+weighted avg       0.77      0.76      0.76    137873
+
+---------------------------------
+Using DT: 
+Training Accuracy: 0.7640883926378842
+Testing Accuracy: 0.7628614739651709
+Confusion Matrix:
+[[49954 19208]
+ [13487 55224]]
+Recall: 0.8037141069115571
+Precision: 0.741938950988822
+F1-score: 0.771592044319317
+Fbeta-score: 0.771592044319317
+              precision    recall  f1-score   support
+
+         0.0       0.79      0.72      0.75     69162
+         1.0       0.74      0.80      0.77     68711
+
+    accuracy                           0.76    137873
+   macro avg       0.76      0.76      0.76    137873
+weighted avg       0.76      0.76      0.76    137873
+
+---------------------------------
+Using RT: 
+Training Accuracy: 0.9762419140754924
+Testing Accuracy: 0.9413445707281338
+Confusion Matrix:
+[[62071  7091]
+ [  996 67715]]
+Recall: 0.98550450437339
+Precision: 0.9052081383846216
+F1-score: 0.9436512747618749
+Fbeta-score: 0.9436512747618749
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.90      0.94     69162
+         1.0       0.91      0.99      0.94     68711
+
+    accuracy                           0.94    137873
+   macro avg       0.94      0.94      0.94    137873
+weighted avg       0.94      0.94      0.94    137873
+
+---------------------------------
+Using NB: 
+Training Accuracy: 0.7225342787246543
+Testing Accuracy: 0.7241664430309053
+Confusion Matrix:
+[[54678 14484]
+ [23546 45165]]
+Recall: 0.6573183333090772
+Precision: 0.7571795000754413
+F1-score: 0.7037239015269554
+Fbeta-score: 0.7037239015269554
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.79      0.74     69162
+         1.0       0.76      0.66      0.70     68711
+
+    accuracy                           0.72    137873
+   macro avg       0.73      0.72      0.72    137873
+weighted avg       0.73      0.72      0.72    137873
+
+---------------------------------
+Using XGB: 
+Training Accuracy: 0.7274487800783958
+Testing Accuracy: 0.7202643012047318
+Confusion Matrix:
+[[31040 38122]
+ [  446 68265]]
+Recall: 0.9935090451310562
+Precision: 0.6416667449970391
+F1-score: 0.7797347770962547
+Fbeta-score: 0.7797347770962547
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.45      0.62     69162
+         1.0       0.64      0.99      0.78     68711
+
+    accuracy                           0.72    137873
+   macro avg       0.81      0.72      0.70    137873
+weighted avg       0.81      0.72      0.70    137873
+
+---------------------------------
+========================================
+Train-Test Split Ratio: 0.6-0.4
+Using LR: 
+Training Accuracy: 0.7689958802367414
+Testing Accuracy: 0.7692759614861557
+Confusion Matrix:
+[[69022 23029]
+ [19385 72394]]
+Recall: 0.7887861057540396
+Precision: 0.7586640537396644
+F1-score: 0.773431907778763
+Fbeta-score: 0.773431907778763
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.75      0.76     92051
+         1.0       0.76      0.79      0.77     91779
+
+    accuracy                           0.77    183830
+   macro avg       0.77      0.77      0.77    183830
+weighted avg       0.77      0.77      0.77    183830
+
+---------------------------------
+Using KNN: 
+Training Accuracy: 0.7624608332366253
+Testing Accuracy: 0.759680139259098
+Confusion Matrix:
+[[63969 28082]
+ [16096 75683]]
+Recall: 0.8246221902613887
+Precision: 0.7293692478195923
+F1-score: 0.7740764226977048
+Fbeta-score: 0.7740764226977048
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.69      0.74     92051
+         1.0       0.73      0.82      0.77     91779
+
+    accuracy                           0.76    183830
+   macro avg       0.76      0.76      0.76    183830
+weighted avg       0.76      0.76      0.76    183830
+
+---------------------------------
+Using DT: 
+Training Accuracy: 0.764201578275502
+Testing Accuracy: 0.7630800195833106
+Confusion Matrix:
+[[67528 24523]
+ [19030 72749]]
+Recall: 0.7926540929842338
+Precision: 0.7478925076075336
+F1-score: 0.7696230117798901
+Fbeta-score: 0.7696230117798901
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.73      0.76     92051
+         1.0       0.75      0.79      0.77     91779
+
+    accuracy                           0.76    183830
+   macro avg       0.76      0.76      0.76    183830
+weighted avg       0.76      0.76      0.76    183830
+
+---------------------------------
+Using RT: 
+Training Accuracy: 0.9765615933619589
+Testing Accuracy: 0.9356688244573791
+Confusion Matrix:
+[[81712 10339]
+ [ 1487 90292]]
+Recall: 0.9837980365878904
+Precision: 0.8972583001262037
+F1-score: 0.9385374980510368
+Fbeta-score: 0.9385374980510368
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.89      0.93     92051
+         1.0       0.90      0.98      0.94     91779
+
+    accuracy                           0.94    183830
+   macro avg       0.94      0.94      0.94    183830
+weighted avg       0.94      0.94      0.94    183830
+
+---------------------------------
+Using NB: 
+Training Accuracy: 0.7222242369734246
+Testing Accuracy: 0.7241037915465376
+Confusion Matrix:
+[[72814 19237]
+ [31481 60298]]
+Recall: 0.6569912507218427
+Precision: 0.7581316401584208
+F1-score: 0.7039471380038993
+Fbeta-score: 0.7039471380038993
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.79      0.74     92051
+         1.0       0.76      0.66      0.70     91779
+
+    accuracy                           0.72    183830
+   macro avg       0.73      0.72      0.72    183830
+weighted avg       0.73      0.72      0.72    183830
+
+---------------------------------
+Using XGB: 
+Training Accuracy: 0.7265688464662876
+Testing Accuracy: 0.7192623619648588
+Confusion Matrix:
+[[41057 50994]
+ [  614 91165]]
+Recall: 0.9933100164525654
+Precision: 0.6412889792415535
+F1-score: 0.7793945404337902
+Fbeta-score: 0.7793945404337902
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.45      0.61     92051
+         1.0       0.64      0.99      0.78     91779
+
+    accuracy                           0.72    183830
+   macro avg       0.81      0.72      0.70    183830
+weighted avg       0.81      0.72      0.70    183830
+
+---------------------------------
+========================================
+Train-Test Split Ratio: 0.5-0.5
+Using LR: 
+Training Accuracy: 0.7675804114244931
+Testing Accuracy: 0.7678763376518254
+Confusion Matrix:
+[[86626 28436]
+ [24903 89822]]
+Recall: 0.7829331008934408
+Precision: 0.7595426947859765
+F1-score: 0.7710605494821511
+Fbeta-score: 0.7710605494821511
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.75      0.76    115062
+         1.0       0.76      0.78      0.77    114725
+
+    accuracy                           0.77    229787
+   macro avg       0.77      0.77      0.77    229787
+weighted avg       0.77      0.77      0.77    229787
+
+---------------------------------
+Using KNN: 
+Training Accuracy: 0.7610047565789188
+Testing Accuracy: 0.7582369759821052
+Confusion Matrix:
+[[79420 35642]
+ [19912 94813]]
+Recall: 0.8264371322728263
+Precision: 0.7267870146793913
+F1-score: 0.7734154498735623
+Fbeta-score: 0.7734154498735623
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.69      0.74    115062
+         1.0       0.73      0.83      0.77    114725
+
+    accuracy                           0.76    229787
+   macro avg       0.76      0.76      0.76    229787
+weighted avg       0.76      0.76      0.76    229787
+
+---------------------------------
+Using DT: 
+Training Accuracy: 0.765300038731521
+Testing Accuracy: 0.7628847584937355
+Confusion Matrix:
+[[83610 31452]
+ [23034 91691]]
+Recall: 0.7992242318587928
+Precision: 0.7445896234459125
+F1-score: 0.7709401853128626
+Fbeta-score: 0.7709401853128626
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.73      0.75    115062
+         1.0       0.74      0.80      0.77    114725
+
+    accuracy                           0.76    229787
+   macro avg       0.76      0.76      0.76    229787
+weighted avg       0.76      0.76      0.76    229787
+
+---------------------------------
+Using RT: 
+Training Accuracy: 0.9768176615735442
+Testing Accuracy: 0.9261707581368833
+Confusion Matrix:
+[[100396  14666]
+ [  2299 112426]]
+Recall: 0.9799607757681412
+Precision: 0.8846032795140528
+F1-score: 0.9298436420929876
+Fbeta-score: 0.9298436420929876
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.87      0.92    115062
+         1.0       0.88      0.98      0.93    114725
+
+    accuracy                           0.93    229787
+   macro avg       0.93      0.93      0.93    229787
+weighted avg       0.93      0.93      0.93    229787
+
+---------------------------------
+Using NB: 
+Training Accuracy: 0.7220861058284411
+Testing Accuracy: 0.7246319417547555
+Confusion Matrix:
+[[90835 24227]
+ [39049 75676]]
+Recall: 0.6596295489213336
+Precision: 0.7574947699268291
+F1-score: 0.7051829211472874
+Fbeta-score: 0.7051829211472874
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.79      0.74    115062
+         1.0       0.76      0.66      0.71    114725
+
+    accuracy                           0.72    229787
+   macro avg       0.73      0.72      0.72    229787
+weighted avg       0.73      0.72      0.72    229787
+
+---------------------------------
+Using XGB: 
+Training Accuracy: 0.7300891695352653
+Testing Accuracy: 0.7203149003207318
+Confusion Matrix:
+[[ 51501  63561]
+ [   707 114018]]
+Recall: 0.9938374373501853
+Precision: 0.6420691635835318
+F1-score: 0.78013301220647
+Fbeta-score: 0.78013301220647
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.45      0.62    115062
+         1.0       0.64      0.99      0.78    114725
+
+    accuracy                           0.72    229787
+   macro avg       0.81      0.72      0.70    229787
+weighted avg       0.81      0.72      0.70    229787
+
+---------------------------------
+========================================
+Train-Test Split Ratio: 0.4-0.6
+Using LR: 
+Training Accuracy: 0.7659999238422665
+Testing Accuracy: 0.7679413951295581
+Confusion Matrix:
+[[102758  35246]
+ [ 28743 108998]]
+Recall: 0.7913257490507547
+Precision: 0.7556501483597238
+F1-score: 0.7730765820876997
+Fbeta-score: 0.7730765820876997
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.74      0.76    138004
+         1.0       0.76      0.79      0.77    137741
+
+    accuracy                           0.77    275745
+   macro avg       0.77      0.77      0.77    275745
+weighted avg       0.77      0.77      0.77    275745
+
+---------------------------------
+Using KNN: 
+Training Accuracy: 0.7582916732398044
+Testing Accuracy: 0.7557997425157301
+Confusion Matrix:
+[[ 94869  43135]
+ [ 24202 113539]]
+Recall: 0.8242934202597629
+Precision: 0.7246830999400028
+F1-score: 0.7712854304298354
+Fbeta-score: 0.7712854304298354
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.69      0.74    138004
+         1.0       0.72      0.82      0.77    137741
+
+    accuracy                           0.76    275745
+   macro avg       0.76      0.76      0.75    275745
+weighted avg       0.76      0.76      0.75    275745
+
+---------------------------------
+Using DT: 
+Training Accuracy: 0.7651295497445996
+Testing Accuracy: 0.7631652432501043
+Confusion Matrix:
+[[100037  37967]
+ [ 27339 110402]]
+Recall: 0.8015187925163895
+Precision: 0.74410422662416
+F1-score: 0.7717451329908077
+Fbeta-score: 0.7717451329908077
+              precision    recall  f1-score   support
+
+         0.0       0.79      0.72      0.75    138004
+         1.0       0.74      0.80      0.77    137741
+
+    accuracy                           0.76    275745
+   macro avg       0.76      0.76      0.76    275745
+weighted avg       0.76      0.76      0.76    275745
+
+---------------------------------
+Using RT: 
+Training Accuracy: 0.9771581197743555
+Testing Accuracy: 0.9130573537144826
+Confusion Matrix:
+[[117828  20176]
+ [  3798 133943]]
+Recall: 0.9724265106250136
+Precision: 0.8690881721267333
+F1-score: 0.917857877064346
+Fbeta-score: 0.917857877064346
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.85      0.91    138004
+         1.0       0.87      0.97      0.92    137741
+
+    accuracy                           0.91    275745
+   macro avg       0.92      0.91      0.91    275745
+weighted avg       0.92      0.91      0.91    275745
+
+---------------------------------
+Using NB: 
+Training Accuracy: 0.7214966082609382
+Testing Accuracy: 0.7239623565250504
+Confusion Matrix:
+[[108901  29103]
+ [ 47013  90728]]
+Recall: 0.6586855039530713
+Precision: 0.757132962255176
+F1-score: 0.7044865125091236
+Fbeta-score: 0.7044865125091236
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.79      0.74    138004
+         1.0       0.76      0.66      0.70    137741
+
+    accuracy                           0.72    275745
+   macro avg       0.73      0.72      0.72    275745
+weighted avg       0.73      0.72      0.72    275745
+
+---------------------------------
+Using XGB: 
+Training Accuracy: 0.7319846161378237
+Testing Accuracy: 0.7202415274982321
+Confusion Matrix:
+[[ 61790  76214]
+ [   928 136813]]
+Recall: 0.9932627177093241
+Precision: 0.6422331441554356
+F1-score: 0.7800768599188067
+Fbeta-score: 0.7800768599188067
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.45      0.62    138004
+         1.0       0.64      0.99      0.78    137741
+
+    accuracy                           0.72    275745
+   macro avg       0.81      0.72      0.70    275745
+weighted avg       0.81      0.72      0.70    275745
+
+---------------------------------
+========================================
+Train-Test Split Ratio: 0.3-0.7
+Using LR: 
+Training Accuracy: 0.7650937101079262
+Testing Accuracy: 0.7662277511485786
+Confusion Matrix:
+[[119676  41206]
+ [ 33999 126821]]
+Recall: 0.7885897276458151
+Precision: 0.7547656031471133
+F1-score: 0.7713070211983081
+Fbeta-score: 0.7713070211983081
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.74      0.76    160882
+         1.0       0.75      0.79      0.77    160820
+
+    accuracy                           0.77    321702
+   macro avg       0.77      0.77      0.77    321702
+weighted avg       0.77      0.77      0.77    321702
+
+---------------------------------
+Using KNN: 
+Training Accuracy: 0.7563609724962284
+Testing Accuracy: 0.7553512256684758
+Confusion Matrix:
+[[110188  50694]
+ [ 28010 132810]]
+Recall: 0.8258301206317622
+Precision: 0.7237444415380592
+F1-score: 0.7714245884690001
+Fbeta-score: 0.7714245884690001
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.68      0.74    160882
+         1.0       0.72      0.83      0.77    160820
+
+    accuracy                           0.76    321702
+   macro avg       0.76      0.76      0.75    321702
+weighted avg       0.76      0.76      0.75    321702
+
+---------------------------------
+Using DT: 
+Training Accuracy: 0.763614076824881
+Testing Accuracy: 0.7635575781313141
+Confusion Matrix:
+[[114771  46111]
+ [ 29953 130867]]
+Recall: 0.8137482900136799
+Precision: 0.7394534913944106
+F1-score: 0.7748240072469346
+Fbeta-score: 0.7748240072469346
+              precision    recall  f1-score   support
+
+         0.0       0.79      0.71      0.75    160882
+         1.0       0.74      0.81      0.77    160820
+
+    accuracy                           0.76    321702
+   macro avg       0.77      0.76      0.76    321702
+weighted avg       0.77      0.76      0.76    321702
+
+---------------------------------
+Using RT: 
+Training Accuracy: 0.9782696994313567
+Testing Accuracy: 0.893193079309423
+Confusion Matrix:
+[[133349  27533]
+ [  6827 153993]]
+Recall: 0.957548812336774
+Precision: 0.8483247578859227
+F1-score: 0.8996337039135845
+Fbeta-score: 0.8996337039135845
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.83      0.89    160882
+         1.0       0.85      0.96      0.90    160820
+
+    accuracy                           0.89    321702
+   macro avg       0.90      0.89      0.89    321702
+weighted avg       0.90      0.89      0.89    321702
+
+---------------------------------
+Using NB: 
+Training Accuracy: 0.7216983869095973
+Testing Accuracy: 0.7235049828723477
+Confusion Matrix:
+[[126839  34043]
+ [ 54906 105914]]
+Recall: 0.658587240392986
+Precision: 0.7567610051658724
+F1-score: 0.7042692759087297
+Fbeta-score: 0.7042692759087297
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.79      0.74    160882
+         1.0       0.76      0.66      0.70    160820
+
+    accuracy                           0.72    321702
+   macro avg       0.73      0.72      0.72    321702
+weighted avg       0.73      0.72      0.72    321702
+
+---------------------------------
+Using XGB: 
+Training Accuracy: 0.7351891609608913
+Testing Accuracy: 0.7196411585877613
+Confusion Matrix:
+[[ 72035  88847]
+ [  1345 159475]]
+Recall: 0.9916366123616466
+Precision: 0.6422105169900372
+F1-score: 0.7795581973984582
+Fbeta-score: 0.7795581973984582
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.45      0.61    160882
+         1.0       0.64      0.99      0.78    160820
+
+    accuracy                           0.72    321702
+   macro avg       0.81      0.72      0.70    321702
+weighted avg       0.81      0.72      0.70    321702
+
+---------------------------------
+========================================
+Train-Test Split Ratio: 0.2-0.8
+Using LR: 
+Training Accuracy: 0.7680114019627042
+Testing Accuracy: 0.7676875373986836
+Confusion Matrix:
+[[136396  47381]
+ [ 38031 145852]]
+Recall: 0.7931782709657772
+Precision: 0.7547986110032966
+F1-score: 0.7735126592348243
+Fbeta-score: 0.7735126592348243
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.74      0.76    183777
+         1.0       0.75      0.79      0.77    183883
+
+    accuracy                           0.77    367660
+   macro avg       0.77      0.77      0.77    367660
+weighted avg       0.77      0.77      0.77    367660
+
+---------------------------------
+Using KNN: 
+Training Accuracy: 0.7540309419674913
+Testing Accuracy: 0.7500353587553719
+Confusion Matrix:
+[[125323  58454]
+ [ 33448 150435]]
+Recall: 0.8181017277290451
+Precision: 0.7201671701238457
+F1-score: 0.7660169258501115
+Fbeta-score: 0.7660169258501115
+              precision    recall  f1-score   support
+
+         0.0       0.79      0.68      0.73    183777
+         1.0       0.72      0.82      0.77    183883
+
+    accuracy                           0.75    367660
+   macro avg       0.75      0.75      0.75    367660
+weighted avg       0.75      0.75      0.75    367660
+
+---------------------------------
+Using DT: 
+Training Accuracy: 0.7683160345540396
+Testing Accuracy: 0.7639068704781592
+Confusion Matrix:
+[[131121  52656]
+ [ 34146 149737]]
+Recall: 0.8143058357760098
+Precision: 0.7398328993591675
+F1-score: 0.7752850293572472
+Fbeta-score: 0.7752850293572472
+              precision    recall  f1-score   support
+
+         0.0       0.79      0.71      0.75    183777
+         1.0       0.74      0.81      0.78    183883
+
+    accuracy                           0.76    367660
+   macro avg       0.77      0.76      0.76    367660
+weighted avg       0.77      0.76      0.76    367660
+
+---------------------------------
+Using RT: 
+Training Accuracy: 0.9799486476488892
+Testing Accuracy: 0.8644617309470707
+Confusion Matrix:
+[[146583  37194]
+ [ 12638 171245]]
+Recall: 0.9312715150394545
+Precision: 0.821559305120443
+F1-score: 0.8729818873272465
+Fbeta-score: 0.8729818873272465
+              precision    recall  f1-score   support
+
+         0.0       0.92      0.80      0.85    183777
+         1.0       0.82      0.93      0.87    183883
+
+    accuracy                           0.86    367660
+   macro avg       0.87      0.86      0.86    367660
+weighted avg       0.87      0.86      0.86    367660
+
+---------------------------------
+Using NB: 
+Training Accuracy: 0.7225776269121135
+Testing Accuracy: 0.7224963281292498
+Confusion Matrix:
+[[144686  39091]
+ [ 62936 120947]]
+Recall: 0.6577388883148524
+Precision: 0.7557392619252927
+F1-score: 0.7033417558102006
+Fbeta-score: 0.7033417558102006
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.79      0.74    183777
+         1.0       0.76      0.66      0.70    183883
+
+    accuracy                           0.72    367660
+   macro avg       0.73      0.72      0.72    367660
+weighted avg       0.73      0.72      0.72    367660
+
+---------------------------------
+Using XGB: 
+Training Accuracy: 0.7396479317622996
+Testing Accuracy: 0.7164255018223359
+Confusion Matrix:
+[[ 82050 101727]
+ [  2532 181351]]
+Recall: 0.9862303747491612
+Precision: 0.6406396823490346
+F1-score: 0.7767286775555132
+Fbeta-score: 0.7767286775555132
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.45      0.61    183777
+         1.0       0.64      0.99      0.78    183883
+
+    accuracy                           0.72    367660
+   macro avg       0.81      0.72      0.69    367660
+weighted avg       0.81      0.72      0.69    367660
+
+---------------------------------
+========================================
+Train-Test Split Ratio: 0.1-0.9
+Using LR: 
+Training Accuracy: 0.7658680940879518
+Testing Accuracy: 0.767253280208502
+Confusion Matrix:
+[[153043  53545]
+ [ 42723 164306]]
+Recall: 0.7936376063256838
+Precision: 0.7542127417363244
+F1-score: 0.7734230841649407
+Fbeta-score: 0.7734230841649407
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.74      0.76    206588
+         1.0       0.75      0.79      0.77    207029
+
+    accuracy                           0.77    413617
+   macro avg       0.77      0.77      0.77    413617
+weighted avg       0.77      0.77      0.77    413617
+
+---------------------------------
+Using KNN: 
+Training Accuracy: 0.747133189720826
+Testing Accuracy: 0.745856674169582
+Confusion Matrix:
+[[140771  65817]
+ [ 39301 167728]]
+Recall: 0.8101666916229128
+Precision: 0.7181827913250123
+F1-score: 0.7614067103369695
+Fbeta-score: 0.7614067103369695
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.68      0.73    206588
+         1.0       0.72      0.81      0.76    207029
+
+    accuracy                           0.75    413617
+   macro avg       0.75      0.75      0.74    413617
+weighted avg       0.75      0.75      0.74    413617
+
+---------------------------------
+Using DT: 
+Training Accuracy: 0.7675653328111061
+Testing Accuracy: 0.7615426832069282
+Confusion Matrix:
+[[148723  57865]
+ [ 40765 166264]]
+Recall: 0.8030952185442619
+Precision: 0.74182278955423
+F1-score: 0.7712439523330195
+Fbeta-score: 0.7712439523330195
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.72      0.75    206588
+         1.0       0.74      0.80      0.77    207029
+
+    accuracy                           0.76    413617
+   macro avg       0.76      0.76      0.76    413617
+weighted avg       0.76      0.76      0.76    413617
+
+---------------------------------
+Using RT: 
+Training Accuracy: 0.9837891942467959
+Testing Accuracy: 0.8215861533737733
+Confusion Matrix:
+[[157584  49004]
+ [ 24791 182238]]
+Recall: 0.8802534910568085
+Precision: 0.7880834796447013
+F1-score: 0.83162244364788
+Fbeta-score: 0.83162244364788
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.76      0.81    206588
+         1.0       0.79      0.88      0.83    207029
+
+    accuracy                           0.82    413617
+   macro avg       0.83      0.82      0.82    413617
+weighted avg       0.83      0.82      0.82    413617
+
+---------------------------------
+Using NB: 
+Training Accuracy: 0.7230889744761407
+Testing Accuracy: 0.7228111997330864
+Confusion Matrix:
+[[162454  44134]
+ [ 70516 136513]]
+Recall: 0.659390713378319
+Precision: 0.7556892724484768
+F1-score: 0.704263353934729
+Fbeta-score: 0.704263353934729
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.79      0.74    206588
+         1.0       0.76      0.66      0.70    207029
+
+    accuracy                           0.72    413617
+   macro avg       0.73      0.72      0.72    413617
+weighted avg       0.73      0.72      0.72    413617
+
+---------------------------------
+Using XGB: 
+Training Accuracy: 0.7682616358770155
+Testing Accuracy: 0.7188993682561403
+Confusion Matrix:
+[[ 96863 109725]
+ [  6543 200486]]
+Recall: 0.9683957319988987
+Precision: 0.6462891386830254
+F1-score: 0.7752146005722682
+Fbeta-score: 0.7752146005722682
+              precision    recall  f1-score   support
+
+         0.0       0.94      0.47      0.62    206588
+         1.0       0.65      0.97      0.78    207029
+
+    accuracy                           0.72    413617
+   macro avg       0.79      0.72      0.70    413617
+weighted avg       0.79      0.72      0.70    413617
+
+---------------------------------
+========================================

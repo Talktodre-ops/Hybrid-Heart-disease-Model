@@ -1,0 +1,20 @@
+Using Hybrid Model:
+Training Accuracy: 0.9319678832207546
+Testing Accuracy: 0.9354695988337093
+Confusion Matrix:
+[[61169  7802]
+ [ 1095 67807]]
+Recall: 0.9841078633421381
+Precision: 0.8968112261767779
+F1-score: 0.9384337524479105
+Fbeta-score: 0.9384337524479105
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.89      0.93     68971
+         1.0       0.90      0.98      0.94     68902
+
+    accuracy                           0.94    137873
+   macro avg       0.94      0.94      0.94    137873
+weighted avg       0.94      0.94      0.94    137873
+
+---------------------------------
